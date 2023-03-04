@@ -1,0 +1,50 @@
+input[type=range] {
+    height: 38px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #000000;
+    background: #3071A9;
+    border-radius: 5px;
+    border: 1px solid #000000;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -11px;
+  }
+
+  .button1{
+    background-color: #3071a9c6;
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(244, 242, 242);
+    border:solid 2px  #1f4b71;
+    border-radius: 5px;
+    
+  }
+  .button1:hover{
+    background-color: #4ea0e86d;
+    font-weight: bold;
+  }
+  .cadr{
+    background-color:rgba(125, 154, 240, 0.189);
+    color: rgb(54, 21, 12);
+    font-weight: bold;
+  }
